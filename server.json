@@ -1,0 +1,19 @@
+{
+    "app":{
+        "cfengine":"adobe@2021"
+    },
+    "web":{
+        "rewrites":{
+            "enable":"true"
+        }
+    },
+    "trayOptions":[
+        {
+            "label":"Open VScode",
+            "action":"runAsync",
+            "command":"code .",
+            "disabled":false,
+            "image":"/path/to/image.png"
+        }
+    ]
+}
